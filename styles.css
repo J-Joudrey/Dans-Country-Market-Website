@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  border: 1px solid #000;
+  
+}
+
+.logo {
+  border: 1px solid rgb(247, 8, 8);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 0 3rem 0 3rem;
+  width: 100vw;
+  align-items: center;
+  background: #fff;
+}
+
+.title-icon {
+  display: flex;
+  flex: 1 0 0px;
+
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+
+h2 {
+  justify-content: flex-start;
+}
+.hero {
+  background-image: url("./Pictures/Dans\ Site\ Files/peter-wendt--r5KSMkyoSc-unsplash.jpg");
+  mix-blend-mode: darken;
+  height: 100vh;
+  padding: 60px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.caption {
+  color: #fff;
+}
+.overlay { 
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.btn-primary {
+  padding: 15px;
+  background-color: #F2CC8F;
+  border-radius: 8px;
+}
