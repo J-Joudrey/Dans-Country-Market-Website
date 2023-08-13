@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  border: 1px solid #000;
 }
 
 .logo {
@@ -44,8 +43,6 @@ h2 {
   border-radius: 1em;
 }
 
-
-
 .hero {
   background-color: rgba(0,0,0,.2);
   background-image: url("./Pictures/Dans Site Files/peter-wendt--r5KSMkyoSc-unsplash.jpg") ;
@@ -78,12 +75,12 @@ h2 {
   border-radius: 8px;
   margin: 1em;
   font-weight: bolder;
-border: 1px solid rgba(0,0,0,.99);
+  border: 1px solid rgba(0,0,0,.99);
 }
 
 .offerings-container {
   height: 20vh;
-  background-color: #fff;
+  background: radial-gradient(50% 50% at 50% 50%, #e07a5f 0%, #7e2f18 100%);
   z-index: 1;
 }
 
