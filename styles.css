@@ -78,11 +78,43 @@ h2 {
   border: 1px solid rgba(0,0,0,.99);
 }
 
+/* Offerings Styling */ 
+
 .offerings-container {
-  height: 20vh;
+  height: fit-content;
   background: radial-gradient(50% 50% at 50% 50%, #e07a5f 0%, #7e2f18 100%);
-  z-index: 1;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #f00;
+
 }
+.offerings-wrapper {
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.offerings-image { 
+  border-radius: 3rem;
+
+}
+.item-small {
+  margin: 40px;
+  border: 1px solid rgb(247, 210, 4);
+  flex: 1;
+}
+
+.item-large { 
+  margin: 40px;
+  border: 1px solid rgb(217, 253, 13);
+  flex: 2;
+
+}
+
+
+/* Footer styling */ 
 
 .footer {
   height: 20vh;
